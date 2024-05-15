@@ -36,4 +36,8 @@ public class AuthorRepository {
         authors.add(new Author(2,"Mark","Heckler"));
         authors.add(new Author(3,"Greg","Turnquist"));
     }
+
+    public List<Author> findAll() {
+        return authors;
+    }
 }
